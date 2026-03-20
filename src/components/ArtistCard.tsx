@@ -1,4 +1,4 @@
-import { Badge, Box, Flex, HStack, Heading, Image, Text } from "@chakra-ui/react";
+import { Badge, Box, Flex, HStack, Heading, Text } from "@chakra-ui/react";
 import { motion } from "motion/react";
 import type { Artist } from "../lib/types";
 import { formatTime } from "../lib/data";
@@ -62,12 +62,11 @@ export function ArtistCard({ artist, onClick }: { artist: Artist; onClick: () =>
       >
         <Box h="180px" position="relative" overflow="hidden" flexShrink={0}>
           {imgSrc ? (
-            <Image
+            <img
               src={imgSrc}
               alt={artist.photo.alt ?? artist.title}
-              w="100%"
-              h="100%"
-              objectFit="cover"
+              loading="lazy"
+              style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
           ) : (
             <Flex

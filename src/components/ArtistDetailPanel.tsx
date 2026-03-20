@@ -12,7 +12,6 @@ import {
   DialogTitle,
   Flex,
   Heading,
-  Image,
   Link,
   Text,
   VStack,
@@ -64,13 +63,16 @@ export function ArtistDetailPanel({
               <DialogBody pb={6}>
                 <VStack gap={5} align="stretch">
                   {imgSrc ? (
-                    <Image
+                    <img
                       src={imgSrc}
                       alt={artist.photo.alt ?? artist.title}
-                      w="100%"
-                      maxH="300px"
-                      objectFit="cover"
-                      rounded="lg"
+                      loading="lazy"
+                      style={{
+                        width: "100%",
+                        maxHeight: "300px",
+                        objectFit: "cover",
+                        borderRadius: "var(--chakra-radii-lg)",
+                      }}
                     />
                   ) : (
                     <Flex
