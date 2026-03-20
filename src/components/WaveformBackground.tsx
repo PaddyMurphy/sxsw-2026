@@ -27,6 +27,11 @@ export function WaveformBackground() {
       "(prefers-reduced-motion: reduce)"
     ).matches;
 
+    // --- Static texture layer (noise + splatters) rendered once offscreen ---
+    const texCanvas = document.createElement("canvas");
+    const texCtx = texCanvas.getContext("2d")!;
+    let texDirty = true;
+
     const resize = () => {
       const dpr = window.devicePixelRatio || 1;
       canvas.width = window.innerWidth * dpr;
@@ -34,10 +39,78 @@ export function WaveformBackground() {
       canvas.style.width = `${window.innerWidth}px`;
       canvas.style.height = `${window.innerHeight}px`;
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      texDirty = true;
     };
 
     resize();
     window.addEventListener("resize", resize);
+
+    const buildTexture = () => {
+      const w = window.innerWidth;
+      const h = window.innerHeight;
+      texCanvas.width = w;
+      texCanvas.height = h;
+
+      // Film grain noise
+      const imgData = texCtx.createImageData(w, h);
+      const d = imgData.data;
+      for (let i = 0; i < d.length; i += 4) {
+        const v = Math.random() * 255;
+        d[i] = v;
+        d[i + 1] = v;
+        d[i + 2] = v;
+        d[i + 3] = 10; // very faint
+      }
+      texCtx.putImageData(imgData, 0, 0);
+
+      // Splatter / splash marks
+      const seededRandom = (seed: number) => {
+        const x = Math.sin(seed * 127.1 + 311.7) * 43758.5453;
+        return x - Math.floor(x);
+      };
+
+      const splatCount = Math.floor(w * h * 0.00004); // density scales with viewport
+      for (let s = 0; s < splatCount; s++) {
+        const sx = seededRandom(s * 3) * w;
+        const sy = seededRandom(s * 3 + 1) * h;
+        const r = seededRandom(s * 3 + 2) * 40 + 8;
+
+        // Pick a color from the palette
+        const colors = [
+          "rgba(0,217,255,",
+          "rgba(56,178,172,",
+          "rgba(129,140,248,",
+        ];
+        const color = colors[s % colors.length];
+        const opacity = 0.01 + seededRandom(s * 7) * 0.025;
+
+        // Main splat blob
+        const grad = texCtx.createRadialGradient(sx, sy, 0, sx, sy, r);
+        grad.addColorStop(0, `${color}${opacity})`);
+        grad.addColorStop(0.4, `${color}${opacity * 0.6})`);
+        grad.addColorStop(1, `${color}0)`);
+        texCtx.beginPath();
+        texCtx.arc(sx, sy, r, 0, Math.PI * 2);
+        texCtx.fillStyle = grad;
+        texCtx.fill();
+
+        // Small satellite droplets around the splat
+        const droplets = Math.floor(seededRandom(s * 11) * 5) + 2;
+        for (let d = 0; d < droplets; d++) {
+          const angle = seededRandom(s * 13 + d) * Math.PI * 2;
+          const dist = r + seededRandom(s * 17 + d) * r * 0.8;
+          const dr = 1 + seededRandom(s * 19 + d) * 3;
+          const dx = sx + Math.cos(angle) * dist;
+          const dy = sy + Math.sin(angle) * dist;
+          texCtx.beginPath();
+          texCtx.arc(dx, dy, dr, 0, Math.PI * 2);
+          texCtx.fillStyle = `${color}${opacity * 0.8})`;
+          texCtx.fill();
+        }
+      }
+
+      texDirty = false;
+    };
 
     // Wave configuration — several overlapping waveforms at different
     // frequencies and amplitudes to simulate an equalizer / sound wave feel.
@@ -103,6 +176,10 @@ export function WaveformBackground() {
         ctx.fill();
       }
 
+      // Composite the static texture (noise + splatters)
+      if (texDirty) buildTexture();
+      ctx.drawImage(texCanvas, 0, 0);
+
       t += 1 / 60; // ~60fps tick
       animId = requestAnimationFrame(draw);
     };
@@ -132,6 +209,8 @@ export function WaveformBackground() {
         ctx.lineWidth = 1.5;
         ctx.stroke();
       }
+      buildTexture();
+      ctx.drawImage(texCanvas, 0, 0);
     }
 
     return () => {

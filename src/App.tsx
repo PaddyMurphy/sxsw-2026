@@ -42,8 +42,9 @@ export default function App() {
           >
             <Box>
               <Heading
-                size={{ base: "2xl", md: "3xl" }}
-                letterSpacing="-0.02em"
+                size={{ base: "3xl", md: "5xl" }}
+                letterSpacing="0.04em"
+                fontFamily="'Bebas Neue', sans-serif"
               >
                 SXSW Music 2026
               </Heading>
