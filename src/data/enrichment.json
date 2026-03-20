@@ -1,0 +1,624 @@
+{
+  "unsafe-space-garden": {
+    "photo": {
+      "localPath": "artist-images/unsafe-space-garden.jpg",
+      "alt": "Unsafe Space Garden"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/0zJQc1EIZ3JSqQajhVPb19",
+      "embedUrl": "https://open.spotify.com/embed/artist/0zJQc1EIZ3JSqQajhVPb19",
+      "label": "Spotify"
+    }
+  },
+  "commercial-breaks": {
+    "photo": {
+      "localPath": "artist-images/commercial-breaks.jpg",
+      "alt": "Commercial Breaks"
+    },
+    "music": {
+      "provider": "bandcamp",
+      "url": "https://commercialbreaksnumber1.bandcamp.com/album/demos-vol-1",
+      "label": "Bandcamp"
+    }
+  },
+  "gus-baldwin-and-the-sketch": {
+    "photo": {
+      "localPath": "artist-images/gus-baldwin-and-the-sketch.jpg",
+      "alt": "Gus Baldwin & The Sketch"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/71iDEgJ58l0EuL03TtqBxt",
+      "embedUrl": "https://open.spotify.com/embed/artist/71iDEgJ58l0EuL03TtqBxt",
+      "label": "Spotify"
+    }
+  },
+  "spacestation": {
+    "photo": {
+      "localPath": "artist-images/spacestation.jpg",
+      "alt": "Spacestation"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/0tC0VODFMyQLqetgajNbbh",
+      "embedUrl": "https://open.spotify.com/embed/artist/0tC0VODFMyQLqetgajNbbh",
+      "label": "Spotify"
+    }
+  },
+  "jazz-re-freshed-djs": {
+    "photo": {
+      "localPath": "artist-images/jazz-re-freshed-djs.jpg",
+      "alt": "Jazz re:freshed DJs"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/user/jazzrefreshed",
+      "label": "Spotify"
+    }
+  },
+  "bikini-beach": {
+    "photo": {
+      "localPath": "artist-images/bikini-beach.jpg",
+      "alt": "Bikini Beach"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/1eMm4uIStcxmNAfqif8DSp",
+      "embedUrl": "https://open.spotify.com/embed/artist/1eMm4uIStcxmNAfqif8DSp",
+      "label": "Spotify"
+    }
+  },
+  "fifi-knifefight": {
+    "photo": {
+      "localPath": "artist-images/fifi-knifefight.jpg",
+      "alt": "fifi knifefight"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/6RI8CZjbXSeH8M0btjdv8z",
+      "embedUrl": "https://open.spotify.com/embed/artist/6RI8CZjbXSeH8M0btjdv8z",
+      "label": "Spotify"
+    }
+  },
+  "gummy-fang": {
+    "photo": {
+      "localPath": "artist-images/gummy-fang.jpg",
+      "alt": "Gummy Fang"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/5HteCWo7220rXzFgtXTx4K",
+      "embedUrl": "https://open.spotify.com/embed/artist/5HteCWo7220rXzFgtXTx4K",
+      "label": "Spotify"
+    }
+  },
+  "kanho-yakushiji": {
+    "photo": {
+      "localPath": "artist-images/kanho-yakushiji.jpg",
+      "alt": "Kanho Yakushiji"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/4zJWH4MVCi54N7PMcbU93z",
+      "embedUrl": "https://open.spotify.com/embed/artist/4zJWH4MVCi54N7PMcbU93z",
+      "label": "Spotify"
+    }
+  },
+  "cj-chenier-and-the-red-hot-louisiana-band": {
+    "photo": {
+      "localPath": "artist-images/cj-chenier-and-the-red-hot-louisiana-band.jpg",
+      "alt": "CJ Chenier and The Red Hot Louisiana Band"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/326smfHMfrS2WA4iaYQOp0",
+      "embedUrl": "https://open.spotify.com/embed/artist/326smfHMfrS2WA4iaYQOp0",
+      "label": "Spotify"
+    }
+  },
+  "water-damage": {
+    "photo": {
+      "localPath": "artist-images/water-damage.jpg",
+      "alt": "Water Damage"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/4TjUJXgZJ2K1eepRhtWu4j",
+      "embedUrl": "https://open.spotify.com/embed/artist/4TjUJXgZJ2K1eepRhtWu4j",
+      "label": "Spotify"
+    }
+  },
+  "haha-laughing": {
+    "photo": {
+      "localPath": "artist-images/haha-laughing.jpg",
+      "alt": "haha Laughing"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/0K954Mj7UWNwR0xYZ7iFr7",
+      "embedUrl": "https://open.spotify.com/embed/artist/0K954Mj7UWNwR0xYZ7iFr7",
+      "label": "Spotify"
+    }
+  },
+  "ttssfu": {
+    "photo": {
+      "localPath": "artist-images/ttssfu.jpg",
+      "alt": "TTSSFU"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/4u0g598Mtg9ch4HgEP2DFG",
+      "embedUrl": "https://open.spotify.com/embed/artist/4u0g598Mtg9ch4HgEP2DFG",
+      "label": "Spotify"
+    }
+  },
+  "pedal-steel-noah": {
+    "photo": {
+      "localPath": "artist-images/pedal-steel-noah.jpg",
+      "alt": "Pedal Steel Noah"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/6o4IMfwcif86AeTsDKmBzy",
+      "embedUrl": "https://open.spotify.com/embed/artist/6o4IMfwcif86AeTsDKmBzy",
+      "label": "Spotify"
+    }
+  },
+  "jcuuzi": {
+    "photo": {
+      "localPath": "artist-images/jcuuzi.jpg",
+      "alt": "J'cuuzi"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/6ksDpuQVzGmC11y39fISGE",
+      "embedUrl": "https://open.spotify.com/embed/artist/6ksDpuQVzGmC11y39fISGE",
+      "label": "Spotify"
+    }
+  },
+  "joyeria": {
+    "photo": {
+      "localPath": "artist-images/joyeria.jpg",
+      "alt": "Joyeria"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/4mECc7MwRyuIDdZdXRi5SB",
+      "embedUrl": "https://open.spotify.com/embed/artist/4mECc7MwRyuIDdZdXRi5SB",
+      "label": "Spotify"
+    }
+  },
+  "alien-chicks": {
+    "photo": {
+      "localPath": "artist-images/alien-chicks.jpg",
+      "alt": "Alien Chicks"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/1V2a5Mkw4VP93kP1vrB4T4",
+      "embedUrl": "https://open.spotify.com/embed/artist/1V2a5Mkw4VP93kP1vrB4T4",
+      "label": "Spotify"
+    }
+  },
+  "whitelands": {
+    "photo": {
+      "localPath": "artist-images/whitelands.jpg",
+      "alt": "Whitelands"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/4B9oWJTIts1eOPLGKy4mro",
+      "embedUrl": "https://open.spotify.com/embed/artist/4B9oWJTIts1eOPLGKy4mro",
+      "label": "Spotify"
+    }
+  },
+  "bloodsports": {
+    "photo": {
+      "localPath": "artist-images/bloodsports.jpg",
+      "alt": "bloodsports"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/6HqDHzNgjf9fIXCVlQzEGS",
+      "embedUrl": "https://open.spotify.com/embed/artist/6HqDHzNgjf9fIXCVlQzEGS",
+      "label": "Spotify"
+    }
+  },
+  "grocery-bag": {
+    "photo": {
+      "localPath": "artist-images/grocery-bag.jpg",
+      "alt": "Grocery Bag"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/3ORVkVwnjHDcUzOhekcaD7",
+      "embedUrl": "https://open.spotify.com/embed/artist/3ORVkVwnjHDcUzOhekcaD7",
+      "label": "Spotify"
+    }
+  },
+  "azamiah": {
+    "photo": {
+      "localPath": "artist-images/azamiah.jpg",
+      "alt": "Azamiah"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/0q4P4opctE6mHRUnm9PHD8",
+      "embedUrl": "https://open.spotify.com/embed/artist/0q4P4opctE6mHRUnm9PHD8",
+      "label": "Spotify"
+    }
+  },
+  "satalights": {
+    "photo": {
+      "localPath": "artist-images/satalights.jpg",
+      "alt": "SATALiGHTS"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/1vjX0IzSOVEpVhZ7uBSvhh",
+      "embedUrl": "https://open.spotify.com/embed/artist/1vjX0IzSOVEpVhZ7uBSvhh",
+      "label": "Spotify"
+    }
+  },
+  "p-h-0": {
+    "photo": {
+      "localPath": "artist-images/p-h-0.jpg",
+      "alt": "P.H.0"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/2hSncFPWSRGcXh1dFnD2vC",
+      "embedUrl": "https://open.spotify.com/embed/artist/2hSncFPWSRGcXh1dFnD2vC",
+      "label": "Spotify"
+    }
+  },
+  "money-mark": {
+    "photo": {
+      "localPath": "artist-images/money-mark.jpg",
+      "alt": "Money Mark"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/6I2891HPq8zEnBEuwc5iAP",
+      "embedUrl": "https://open.spotify.com/embed/artist/6I2891HPq8zEnBEuwc5iAP",
+      "label": "Spotify"
+    }
+  },
+  "luke-tyler-shelton": {
+    "photo": {
+      "localPath": "artist-images/luke-tyler-shelton.jpg",
+      "alt": "Luke Tyler Shelton"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/403x11RUETcMwsBZlbneLC",
+      "embedUrl": "https://open.spotify.com/embed/artist/403x11RUETcMwsBZlbneLC",
+      "label": "Spotify"
+    }
+  },
+  "passion-pit": {
+    "photo": {
+      "localPath": "artist-images/passion-pit.jpg",
+      "alt": "Passion Pit"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/7gjAu1qr5C2grXeQFFOGeh",
+      "embedUrl": "https://open.spotify.com/embed/artist/7gjAu1qr5C2grXeQFFOGeh",
+      "label": "Spotify"
+    }
+  },
+  "charley-crockett": {
+    "photo": {
+      "localPath": "artist-images/charley-crockett.jpg",
+      "alt": "Charley Crockett"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/3BJX1nYizKvWpZTY5HOAr4",
+      "embedUrl": "https://open.spotify.com/embed/artist/3BJX1nYizKvWpZTY5HOAr4",
+      "label": "Spotify"
+    }
+  },
+  "victoryland": {
+    "photo": {
+      "localPath": "artist-images/victoryland.jpg",
+      "alt": "Victoryland"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/63tTs259cHmrkQ7lGTmDdp",
+      "embedUrl": "https://open.spotify.com/embed/artist/63tTs259cHmrkQ7lGTmDdp",
+      "label": "Spotify"
+    }
+  },
+  "karma-sheen": {
+    "photo": {
+      "localPath": "artist-images/karma-sheen.jpg",
+      "alt": "Karma Sheen"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/5jKjC91GYS58L8hhnDiC4j",
+      "embedUrl": "https://open.spotify.com/embed/artist/5jKjC91GYS58L8hhnDiC4j",
+      "label": "Spotify"
+    }
+  },
+  "nik-parr-and-the-selfless-lovers": {
+    "photo": {
+      "localPath": "artist-images/nik-parr-and-the-selfless-lovers.jpg",
+      "alt": "Nik Parr & The Selfless Lovers"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/2Y5eQJAOfddFJoxRXzMrnc",
+      "embedUrl": "https://open.spotify.com/embed/artist/2Y5eQJAOfddFJoxRXzMrnc",
+      "label": "Spotify"
+    }
+  },
+  "ella-ion": {
+    "photo": {
+      "localPath": "artist-images/ella-ion.jpg",
+      "alt": "Ella Ion"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/272IMnCmdF6vvXOkBofjmQ",
+      "embedUrl": "https://open.spotify.com/embed/artist/272IMnCmdF6vvXOkBofjmQ",
+      "label": "Spotify"
+    }
+  },
+  "chalk": {
+    "photo": {
+      "localPath": "artist-images/chalk.jpg",
+      "alt": "CHALK"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/3qa9pv6B0dmiBVETLQOCpi",
+      "embedUrl": "https://open.spotify.com/embed/artist/3qa9pv6B0dmiBVETLQOCpi",
+      "label": "Spotify"
+    }
+  },
+  "samurai-drive": {
+    "photo": {
+      "localPath": "artist-images/samurai-drive.jpg",
+      "alt": "Samurai Drive"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/3KJXAVUBjcuGGU7A7ExedX",
+      "embedUrl": "https://open.spotify.com/embed/artist/3KJXAVUBjcuGGU7A7ExedX",
+      "label": "Spotify"
+    }
+  },
+  "cure-for-paranoia": {
+    "photo": {
+      "localPath": "artist-images/cure-for-paranoia.jpg",
+      "alt": "Cure for Paranoia"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/1WT4fBLGOMO0R6n3DxMjVk",
+      "embedUrl": "https://open.spotify.com/embed/artist/1WT4fBLGOMO0R6n3DxMjVk",
+      "label": "Spotify"
+    }
+  },
+  "hot-garbage": {
+    "photo": {
+      "localPath": "artist-images/hot-garbage.jpg",
+      "alt": "Hot Garbage"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/1ZwMLfwIQkYeJ6raGnMahw",
+      "embedUrl": "https://open.spotify.com/embed/artist/1ZwMLfwIQkYeJ6raGnMahw",
+      "label": "Spotify"
+    }
+  },
+  "feet": {
+    "photo": {
+      "localPath": "artist-images/feet.jpg",
+      "alt": "FEET"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/0t9Ents2JoSGXH0mAreHQb",
+      "embedUrl": "https://open.spotify.com/embed/artist/0t9Ents2JoSGXH0mAreHQb",
+      "label": "Spotify"
+    }
+  },
+  "buddy-red": {
+    "photo": {
+      "localPath": "artist-images/buddy-red.jpg",
+      "alt": "Buddy Red"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/0Mk3KNlsB3ILkExRm3TVzT",
+      "embedUrl": "https://open.spotify.com/embed/artist/0Mk3KNlsB3ILkExRm3TVzT",
+      "label": "Spotify"
+    }
+  },
+  "the-haunted-youth": {
+    "photo": {
+      "localPath": "artist-images/the-haunted-youth.jpg",
+      "alt": "The Haunted Youth"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/4v2gmJmKSgKJVkE5PkeIVL",
+      "embedUrl": "https://open.spotify.com/embed/artist/4v2gmJmKSgKJVkE5PkeIVL",
+      "label": "Spotify"
+    }
+  },
+  "cashier": {
+    "photo": {
+      "localPath": "artist-images/cashier.jpg",
+      "alt": "Cashier"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/3fKpG2VJz5BGHQN9pPLfXe",
+      "embedUrl": "https://open.spotify.com/embed/artist/3fKpG2VJz5BGHQN9pPLfXe",
+      "label": "Spotify"
+    }
+  },
+  "pierce-washington": {
+    "photo": {
+      "localPath": "artist-images/pierce-washington.jpg",
+      "alt": "Pierce Washington"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/0obnkCDVNLhGJubuT9gHjB",
+      "embedUrl": "https://open.spotify.com/embed/artist/0obnkCDVNLhGJubuT9gHjB",
+      "label": "Spotify"
+    }
+  },
+  "next-of-kin": {
+    "photo": {
+      "localPath": "artist-images/next-of-kin.jpg",
+      "alt": "Next of Kin"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/2caxBjYqF5OI8kcoD4W5GW",
+      "embedUrl": "https://open.spotify.com/embed/artist/2caxBjYqF5OI8kcoD4W5GW",
+      "label": "Spotify"
+    }
+  },
+  "flesh-juicer": {
+    "photo": {
+      "localPath": "artist-images/flesh-juicer.jpg",
+      "alt": "Flesh Juicer"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/78ltY2tUrZpkWJ9CWYGZfl",
+      "embedUrl": "https://open.spotify.com/embed/artist/78ltY2tUrZpkWJ9CWYGZfl",
+      "label": "Spotify"
+    }
+  },
+  "agatha-is-dead": {
+    "photo": {
+      "localPath": "artist-images/agatha-is-dead.jpg",
+      "alt": "Agatha is Dead!"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/3t12sehooJP6lkLBy4h9R1",
+      "embedUrl": "https://open.spotify.com/embed/artist/3t12sehooJP6lkLBy4h9R1",
+      "label": "Spotify"
+    }
+  },
+  "glaze": {
+    "photo": {
+      "localPath": "artist-images/glaze.jpg",
+      "alt": "Glaze"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/0IbBBMnzUixMIujGbOBqAu",
+      "embedUrl": "https://open.spotify.com/embed/artist/0IbBBMnzUixMIujGbOBqAu",
+      "label": "Spotify"
+    }
+  },
+  "the-bures-band": {
+    "photo": {
+      "localPath": "artist-images/the-bures-band.jpg",
+      "alt": "The Bures Band"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/5OEZkw4b3hJrOq7XcB4qRx",
+      "embedUrl": "https://open.spotify.com/embed/artist/5OEZkw4b3hJrOq7XcB4qRx",
+      "label": "Spotify"
+    }
+  },
+  "nervous": {
+    "photo": {
+      "localPath": "artist-images/nervous.jpg",
+      "alt": "Nervous"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/4hMlQXy9J7VpfGejnpIqR9",
+      "embedUrl": "https://open.spotify.com/embed/artist/4hMlQXy9J7VpfGejnpIqR9",
+      "label": "Spotify"
+    }
+  },
+  "pons": {
+    "photo": {
+      "localPath": "artist-images/pons.jpg",
+      "alt": "PONS"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/6WG6AXMFarsLqJsYdJyBq2",
+      "embedUrl": "https://open.spotify.com/embed/artist/6WG6AXMFarsLqJsYdJyBq2",
+      "label": "Spotify"
+    }
+  },
+  "alanis-morissette": {
+    "photo": {
+      "localPath": "artist-images/alanis-morissette.jpg",
+      "alt": "Alanis Morissette"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/6ogn9necmbUdCppmNnGOdi",
+      "embedUrl": "https://open.spotify.com/embed/artist/6ogn9necmbUdCppmNnGOdi",
+      "label": "Spotify"
+    }
+  },
+  "very-nice-person": {
+    "photo": {
+      "localPath": "artist-images/very-nice-person.jpg",
+      "alt": "very nice person"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/5OOxzH5YXMYWyaKxIlVPKD",
+      "embedUrl": "https://open.spotify.com/embed/artist/5OOxzH5YXMYWyaKxIlVPKD",
+      "label": "Spotify"
+    }
+  },
+  "jack-johnson": {
+    "photo": {
+      "localPath": "artist-images/jack-johnson.jpg",
+      "alt": "Jack Johnson"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/19YNLS5KAI2mjgFb4s9HjZ",
+      "embedUrl": "https://open.spotify.com/embed/artist/19YNLS5KAI2mjgFb4s9HjZ",
+      "label": "Spotify"
+    }
+  },
+  "hermanos-gutierrez": {
+    "photo": {
+      "localPath": "artist-images/hermanos-gutierrez.jpg",
+      "alt": "Hermanos Gutiérrez"
+    },
+    "music": {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/artist/73mSg0dykFyhvU96tb5xQV",
+      "embedUrl": "https://open.spotify.com/embed/artist/73mSg0dykFyhvU96tb5xQV",
+      "label": "Spotify"
+    }
+  },
+  "miss-bashful": {
+    "photo": {
+      "localPath": "artist-images/miss-bashful.jpg",
+      "alt": "Miss Bashful"
+    }
+  },
+  "pink-breath-of-heaven": {
+    "photo": {
+      "localPath": "artist-images/pink-breath-of-heaven.jpg",
+      "alt": "Pink Breath of Heaven"
+    }
+  }
+}
