@@ -87,7 +87,8 @@ export function SearchToolbar({
       borderColor="whiteAlpha.200"
       rounded="xl"
       p={{ base: 4, md: 5 }}
-      bg="whiteAlpha.50"
+      bg="rgba(10,10,15,0.75)"
+      backdropFilter="blur(8px)"
     >
       <Flex direction={{ base: "column", md: "row" }} gap={3}>
         <Input
@@ -96,8 +97,9 @@ export function SearchToolbar({
           onChange={(e) => setSearch(e.target.value)}
           flex={1}
           size="md"
+          borderColor="whiteAlpha.200"
         />
-        <NativeSelectRoot size="md" w={{ base: "100%", md: "200px" }}>
+        <NativeSelectRoot size="md" w={{ base: "100%", md: "200px" }} borderColor="whiteAlpha.200">
           <NativeSelectField
             value={venue}
             onChange={(e) => setVenue(e.target.value)}

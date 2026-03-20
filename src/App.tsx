@@ -25,7 +25,13 @@ export default function App() {
   const [selected, setSelected] = useState<Artist | null>(null);
 
   return (
-    <Box minH="100vh" py={{ base: 10, md: 14 }} position="relative">
+    <Box
+      minH="100vh"
+      py={{ base: 10, md: 14 }}
+      position="relative"
+      bg="radial-gradient(ellipse 120% 60% at 10% 0%, rgba(0,217,255,0.18) 0%, transparent 60%), radial-gradient(ellipse 100% 50% at 90% 20%, rgba(129,140,248,0.15) 0%, transparent 55%), radial-gradient(ellipse 80% 40% at 50% 100%, rgba(56,178,172,0.18) 0%, transparent 50%), linear-gradient(180deg, #0a0a0f 0%, #0d1020 40%, #120d1e 70%, #0a0a0f 100%)"
+      backgroundAttachment="fixed"
+    >
       <WaveformBackground />
       <Container maxW="6xl" position="relative" zIndex={1}>
         <VStack gap={{ base: 6, md: 8 }} align="stretch">
@@ -73,12 +79,21 @@ export default function App() {
             onClose={() => setSelected(null)}
           />
 
-          <Text fontSize="sm" opacity={0.7}>
-            Data source:{" "}
-            <Link href="https://sxsw.com/" textDecoration="underline">
-              https://sxsw.com/
-            </Link>
-          </Text>
+          <VStack gap={1}>
+            <Text fontSize="sm" opacity={0.7} marginBlockEnd={4}>
+              Data:{" "}
+              <Link href="https://sxsw.com/" textDecoration="underline">
+                sxsw.com
+              </Link>
+              {" · "}
+              <Link href="https://open.spotify.com/" textDecoration="underline">
+                Spotify
+              </Link>
+            </Text>
+            <Text fontSize="xs" opacity={0.3}>
+              <Link href="https://mountaindrawn.com/">mountaindrawn.com</Link>
+            </Text>
+          </VStack>
         </VStack>
       </Container>
     </Box>
