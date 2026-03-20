@@ -16,6 +16,7 @@ import { buildArtists } from "./lib/data";
 import { SearchToolbar } from "./components/SearchToolbar";
 import { ArtistGrid } from "./components/ArtistGrid";
 import { ArtistDetailPanel } from "./components/ArtistDetailPanel";
+import { WaveformBackground } from "./components/WaveformBackground";
 
 export default function App() {
   const [reduceMotion] = useMediaQuery(["(prefers-reduced-motion: reduce)"]);
@@ -24,8 +25,9 @@ export default function App() {
   const [selected, setSelected] = useState<Artist | null>(null);
 
   return (
-    <Box minH="100vh" py={{ base: 10, md: 14 }}>
-      <Container maxW="6xl">
+    <Box minH="100vh" py={{ base: 10, md: 14 }} position="relative">
+      <WaveformBackground />
+      <Container maxW="6xl" position="relative" zIndex={1}>
         <VStack gap={{ base: 6, md: 8 }} align="stretch">
           <motion.section
             initial={reduceMotion ? false : { opacity: 0, y: 10 }}
